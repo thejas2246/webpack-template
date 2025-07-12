@@ -18,6 +18,8 @@ export default defineConfig([
       quotes: ['error', 'single'],
       'no-unused-vars': 'warn',
       'no-undef': 'warn',
+      eqeqeq: 'error',
+      'no-var': 'error',
     },
   },
 ]);
